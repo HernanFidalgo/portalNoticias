@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Periodismo Independiente de Ezequiel Andreatta: breaking news, reportes, análisis y las mejores primicias cubriendo los temas más importantes de Laprida, Argentina y el mundo">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>ElixirNews - by Eze Andreatta</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Api Whatsapp -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Breaking News Area -->
+                    <div class="col-12 col-md-6">
+                        <div class="breaking-news-area">
+                            <h5 class="breaking-news-title">ACTUALIDAD</h5>
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    <li><a href="https://www.clarin.com/rss/lo-ultimo/">Lo Último: CLARÍN</a></li>
+                                    <li><a href="https://www.infobae.com/feeds/rss/">Lo Último: INFOBAE</a></li>
+                                    <li><a href="http://contenidos.lanacion.com.ar/herramientas/rss/origen=2">Lo Último: LA NACIÓN</a></li>
+                                    <li><a href="https://www.perfil.com/feed">Lo Último: PERFIL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Stock News Area -->
+                    <div class="col-12 col-md-6">
+                        <div class="stock-news-area">
+                            <div id="stockNewsTicker" class="ticker">
+                                <ul>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.18</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>bitcoin</span>
+                                                <span>34.573.51</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.96</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>176</span>
+                                            </div>  <!-- "stock-index plus-index" -->
+                                            <div class="stock-index minus-index">
+                                                <h4>0.56</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.18</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>bitcoin</span>
+                                                <span>34.573.51</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.96</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>176</span>
+                                            </div>  <!-- "stock-index plus-index" -->
+                                            <div class="stock-index minus-index">
+                                                <h4>0.56</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.18</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>bitcoin</span>
+                                                <span>34.573.51</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.96</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>176</span>
+                                            </div>  <!-- "stock-index plus-index" -->
+                                            <div class="stock-index minus-index">
+                                                <h4>0.56</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Middle Header Area -->
+        <div class="middle-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Logo Area -->
+                    <div class="col-12 col-md-4">
+                        <div class="logo-area">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <!-- Header Advert Area -->
+                    <div class="col-12 col-md-8">
+                        <div class="header-advert-area">
+                            <a href="#"><img src="img/bg-img/top_ads_init.jpeg" alt="header-add"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Header Area -->
+        <div class="bottom-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gazetteMenu" aria-controls="gazetteMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
+                                <div class="collapse navbar-collapse" id="gazetteMenu">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SECCIONES</a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="https://www.instagram.com/ezequiel_andreatta7/">Elixir-TV</a>
+                                                <a class="dropdown-item" href="catagory.html">Policiales</a>
+                                                <a class="dropdown-item" href="politics.html">Politica</a>
+                                                <a class="dropdown-item" href="#">Mundo</a>
+                                                <a class="dropdown-item" href="single-post.html">Opinion</a>
+                                                <a class="dropdown-item" href="health.html">Salud</a>
+                                                <a class="dropdown-item" href="#">Deportes</a>
+                                                <a class="dropdown-item" href="#">Clasificados</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about-us.html">Quienes somos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contacto</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://wa.me/5491153345181?text=Me%20gustaría%20informar%20algo%20que%20deben%20conocer/investigar:">Denuncias</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Search Form -->
+                                    <div class="header-search-form mr-auto">
+                                        <form action="#">
+                                            <input type="search" placeholder="Ingrese la palabra clave a buscar..." id="search" name="search">
+                                            <input class="d-none" type="submit" value="submit">
+                                        </form>
+                                    </div>
+                                    <!-- Search btn -->
+                                    <div id="searchbtn">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <section class="single-post-area">
+        <!-- Single Post Title -->
+        <div class="single-post-title bg-img background-overlay" style="background-image: url(img/bg-img/2.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-end">
+                    <div class="col-12">
+                        <div class="single-post-title-content">
+                            <!-- Post Tag -->
+                            <div class="gazette-post-tag">
+                                <a href="#">Política</a>
+                            </div>
+                            <h2 class="font-pt"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-post-contents">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h2 class="font-pt">"Peronismo ascendente y reaccionario" </p>| CAPITULO 1 |</h2>
+                            </p>
+                            <p>Junio de 2021. COVID19, tasa de desempleo alarmante, pobreza galopante, frío aberrante. ¿En donde está el refugio para los invisibilizados en situación de calle? Poco le importa a esa gente si Alberto Fernández no sabe de historia, si Cristina logra modificar la Justicia, o si Larreta prevé postularse para ser presidente en 2023.</p>
+                            <p>Los postergados serán el riñón de esta nueva saga -inmersa en lo político- con pizcas de análisis e información. Vamos a dividirlo en capítulos ya que comenzaremos por Laprida, seguirá Provincia de Buenos Aires y culminará con un espectro nacional.</p>
+                            <h6 class="font-pt mb-0">¿Qué saldo positivo dejó hasta el momento el gobierno de Pablo Torres en la ciudad ecológica? A más de 500 días de su asunción y con una crisis epidemiológica sin precedentes como estandarte, algunas luces asoman en ese peronismo ascendente y reaccionario que define al espíritu del trabajador social recibido en la Universidad de la Plata.</h6>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12">
+                        <div class="single-post-thumb">
+                        <img src="img/bg-img/5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <p>Las áreas que este medio considera destacadas son tres: Salud (Simón y Andreatta), Cultura (Casemayor), Vivienda Sofial y Hábitat (Couchez). ¿Qué las distingue o justifica el voto arrasador del 2019 a favor del filo peronismo autóctono en estas dependencias estatales?</p>
+                            <p>En agosto de 2020, Laprida atravesó el tsunami de casos y el virus dejó un colapso de internaciones, derivaciones y fallecimientos. Sin tener una estructura que permita combatir la ola de contagios, la ciudad ecológica tuvo que recurrir a la vecina localidad que cuenta con más de 100.000 habitantes y en estos momentos sufre la segunda ola y ataca a los más jóvenes: Olavarría. Ezequiel Galli es el intendente del sitio que se ubica en el corazón geográfico de la Provincia de Buenos Aires. Muy cercano a Mauricio Macri, uno de sus preferidos. La utilización política en esta pandemia fue de ambos lados poco agradable. Pero en situaciones cumbres, Torres y el tocayo del príncipe de la pluma respondieron con la responsabilidad adecuada. Se pudo derivar pacientes al hospital aledaño y así, progresivamente, erradicar la multiplicidad de casos.</p>
+                            <p>Recordarán la carta que escribió Gustavo Bravo culpando a la plebe por abusar de la libertad y no respetar los protocolos establecidos: un pedido de solidaridad angustiante por parte de un profesional de la salud para con los suyos. El tiempo pasó y a pesar de las secuelas y atravesar un nuevo confinamiento estricto hace un mes, Laprida pudo salir a flote y amalgamar muy pocos casos activos de manera rutinaria, laboriosa y prudente. El Intendente Torres concientizó desde el minuto cero a la población sobre la importancia de la aplicación de la vacuna (sea Sputnik o Astrazeneca), y la sociedad respondió con creces: en estos días se dieron la primer dosis personas de 18 años y la juventud, entendió que la única manera de volver a la vieja normalidad, es apostando a la ciencia y a la investigación meticulosa de miles de infectólogos, obreros del saber médico y enfermeros. El mérito es ordenar y vigilar sin represalias ni adoctrinamiento. Cuidar y emplear una serie de medidas que posibiliten ubicarnos entre las ciudades con menos casos en los últimos meses. Para ello, Andreatta y Simón desarrollaron todos los artilugios en las instancias necesarias; acertando, equivocándose y creyendo, una vez más, en la vocación de servicio, de oficio y responsabilidad que amerita este escenario.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10">
+                        <div class="single-post-blockquote">
+                            <blockquote>
+                                <h6 class="font-pt mb-0">En la dirección de Cultura, gobierna una dama esbelta y sabia llamada Alejandra Casemayor. El arte en tiempos oscuros determina el calibre de nuestros deseos, creatividad e hidalguía: es por eso, que la directora organizó talleres de todo tipo para ejercitar y alumbrar la vida ociosa, el aprendizaje, y devenires que logren estabilizar la ansiedad de las criaturas postergadas, castigadas y cansadas de lidiar con el cinismo de los mayores, de los que nos están dejando un país en ruinas.</h6>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <p>Por último, el área de Vivienda Social y Hábitat, pudo paliar de alguna forma la gravísima crisis habitacional, impulsando proyectos y convenios para la creación de nuevos barrios, que articulen las necesidades básicas satisfechas. Tierra, trabajo y techo. De la mano de Gabriel Katopodis (ministro de Obras Públicas de la Nación) se pudo avanzar en la elaboración de esos hogares, y además, ambicionar con un anexo universitario y de calidad, en la avenida San Martín y Mitre.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10">
+                        <div class="single-post-blockquote">
+                            <blockquote>
+                                <h6 class="font-pt mb-0">Quizás, no destacamos la educación porque se permitió que muchos alumnos pasen de grado sin ninguna exigencia relevante, no se les brindó los materiales pertinentes y se los encerró de manera exagerada, provocando una incertidumbre letal, y por ende, deserción escolar.</h6>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <p>Este peronismo es ascendente (máxima de Juan Domingo Perón al referirse a la movilidad social) y reaccionario porque Torres encarna el oscurantismo vengativo de su jefa Cristina Fernández de Kirchner. Los invito a releer "Militar la inoperancia" y "Los zorritos incapaces" para interpretar aún mejor las prosas escritas. No es una progresía ni un justicialismo soft, a lo Larreta. Es la expresión montonera que esconde un rencor peligroso ya que el Estado puede ser el perfecto impulsor de ese accionar confortativo y condenatorio que ostenta el partido que en 2003, y con ayuda de Duhalde, dió luz en Argentina.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial Area End -->
+
+    <section class="catagory-welcome-post-area section_padding_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="gazette-pagination-area">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next"><i class="fa fa-angle-right"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</p>
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area bg-img background-overlay" style="background-image: url(img/bg-img/4.jpg);">
+        <!-- Top Footer Area -->
+        <div class="top-footer-area section_padding_100_70">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Regiones</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Noroeste</a></li>
+                                <li><a href="#">Nordeste</a></li>
+                                <li><a href="#">Pampeana</a></li>
+                                <li><a href="#">Amba</a></li>
+                                <li><a href="#">Cuyo</a></li>
+                                <li><a href="#">Patagonia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Locales</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Laprida</a></li>
+                                <li><a href="#">Olavarría</a></li>
+                                <li><a href="#">Azul</a></li>
+                                <li><a href="#">Tandil</a></li>
+                                <li><a href="#">Pcia. de BsAs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Politicas</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Desarrollo Social</a></li>
+                                <li><a href="#">Educación</a></li>
+                                <li><a href="#">Economía</a></li>
+                                <li><a href="#">Salud</a></li>
+                                <li><a href="#">Justicia y Seguridad</a></li>
+                                <li><a href="#">Infraestructura</a></li>
+                                <li><a href="#">Medio Ambiente</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Deportes</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Futbol</a></li>
+                                <li><a href="#">Golf</a></li>
+                                <li><a href="#">Tenis</a></li>
+                                <li><a href="#">Motorsport</a></li>
+                                <li><a href="#">Basketball</a></li>
+                                <li><a href="#">Polo</a></li>
+                                <li><a href="#">Boxeo</a></li>
+                                <li><a href="#">Voley</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">+ Más</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Tecnología</a></li>
+                                <li><a href="#">Diseño</a></li>
+                                <li><a href="#">Arquitectura</a></li>
+                                <li><a href="#">Arte</a></li>
+                                <li><a href="#">Autos</a></li>
+                                <li><a href="#">Lujos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Ayuda</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="privacy.html">Términos & Condiciones</a></li>
+                                <li><a href="#">Reglamento Participación</a></li>
+                                <li><a href="#">Beneficios, suscripción</a></li>
+                                <li><a href="#">Donar/Aportes</a></li>
+                                <li><a href="#">Contactar al Director</a></li>
+                                <li><a href="#">Anunciar/Publicidad</a></li>
+                                <li><a href="#">Denuncias</a></li>
+                                <li><a href="#">Fe de erratas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-12">
+                        <div class="copywrite-text">
+                            <p> <!-- Link back to Behance can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.behance.net/hernanFidalgo" target="_blank">Hernán Fidalgo</a>
+                                <!-- Link back to Behance can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- Api Whatsapp -->
+    <a href="https://wa.me/5491153345181?text=Me%20gustaría%20informar%20algo%20que%20deben%20conocer/investigar:" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>

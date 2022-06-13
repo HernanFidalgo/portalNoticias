@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Periodismo Independiente de Ezequiel Andreatta: breaking news, reportes, análisis y las mejores primicias cubriendo los temas más importantes de Laprida, Argentina y el mundo">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>ElixirNews - by Eze Andreatta</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Api Whatsapp -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Breaking News Area -->
+                    <div class="col-12 col-md-6">
+                        <div class="breaking-news-area">
+                            <h5 class="breaking-news-title">ACTUALIDAD</h5>
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    <li><a href="https://www.clarin.com/rss/lo-ultimo/">Lo Último: CLARÍN</a></li>
+                                    <li><a href="https://www.infobae.com/feeds/rss/">Lo Último: INFOBAE</a></li>
+                                    <li><a href="http://contenidos.lanacion.com.ar/herramientas/rss/origen=2">Lo Último: LA NACIÓN</a></li>
+                                    <li><a href="https://www.perfil.com/feed">Lo Último: PERFIL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Stock News Area -->
+                    <div class="col-12 col-md-6">
+                        <div class="stock-news-area">
+                            <div id="stockNewsTicker" class="ticker">
+                                <ul>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.18</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>bitcoin</span>
+                                                <span>34.573.51</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.96</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>176</span>
+                                            </div>  <!-- "stock-index plus-index" -->
+                                            <div class="stock-index minus-index">
+                                                <h4>0.56</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.18</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>bitcoin</span>
+                                                <span>34.573.51</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.96</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>176</span>
+                                            </div>  <!-- "stock-index plus-index" -->
+                                            <div class="stock-index minus-index">
+                                                <h4>0.56</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>eur/usd</span>
+                                                <span>1.1862</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.18</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>bitcoin</span>
+                                                <span>34.573.51</span>
+                                            </div>  <!-- "stock-index minus-index" -->
+                                            <div class="stock-index plus-index">
+                                                <h4>0.96</h4>
+                                            </div>
+                                        </div>
+                                        <div class="single-stock-report">
+                                            <div class="stock-values">
+                                                <span>$blue/usd</span>
+                                                <span>176</span>
+                                            </div>  <!-- "stock-index plus-index" -->
+                                            <div class="stock-index minus-index">
+                                                <h4>0.56</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Middle Header Area -->
+        <div class="middle-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Logo Area -->
+                    <div class="col-12 col-md-4">
+                        <div class="logo-area">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <!-- Header Advert Area -->
+                    <div class="col-12 col-md-8">
+                        <div class="header-advert-area">
+                            <a href="#"><img src="img/bg-img/top-advert.png" alt="header-add"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Header Area -->
+        <div class="bottom-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gazetteMenu" aria-controls="gazetteMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
+                                <div class="collapse navbar-collapse" id="gazetteMenu">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SECCIONES</a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="https://www.instagram.com/ezequiel_andreatta7/">Elixir-TV</a>
+                                                <a class="dropdown-item" href="catagory.html">Policiales</a>
+                                                <a class="dropdown-item" href="politics.html">Politica</a>
+                                                <a class="dropdown-item" href="#">Mundo</a>
+                                                <a class="dropdown-item" href="single-post.html">Opinion</a>
+                                                <a class="dropdown-item" href="health.html">Salud</a>
+                                                <a class="dropdown-item" href="#">Deportes</a>
+                                                <a class="dropdown-item" href="#">Clasificados</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about-us.html">Quienes somos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contacto</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://wa.me/5491153345181?text=Me%20gustaría%20informar%20algo%20que%20deben%20conocer/investigar:">Denuncias</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Search Form -->
+                                    <div class="header-search-form mr-auto">
+                                        <form action="#">
+                                            <input type="search" placeholder="Ingrese la palabra clave a buscar..." id="search" name="search">
+                                            <input class="d-none" type="submit" value="submit">
+                                        </form>
+                                    </div>
+                                    <!-- Search btn -->
+                                    <div id="searchbtn">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <section class="single-post-area">
+        <!-- Single Post Title -->
+        <div class="single-post-title bg-img background-overlay" style="background-image: url(img/bg-img/T_y_C_3.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-end">
+                    <div class="col-12">
+                        <div class="single-post-title-content">
+                            <!-- Post Tag -->
+                            <div class="gazette-post-tag">
+                                <a href="#">Términos & Condiciones</a>
+                            </div>
+                            <h2 class="font-pt"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-post-contents">
+            <div class="container">
+                <div class="row justify-content-center">
+                        <div class="col-12 col-md-10"></br>
+                            <h2 class="font-pt">Términos, condiciones y políticas de privacidad.</h2></br>
+                            <div class="single-post-blockquote">
+                                <blockquote>
+                                <p>Los Términos y Condiciones que se describen a continuación tienen por objeto regular el uso que realice el público en general que ingrese a la dirección URL elixir.news y sus correspondientes sub-dominios, en adelante “el Sitio”, propiedad de Ezequiel Andreatta (en adelante <b>"Director"</b>), con domicilio en Sarandí 1632, Ciudad Autónoma de Buenos Aires, República Argentina. Toda persona cualquiera fuera la condición en que lo haga que ingrese a los sitios de <b>ELIXIR-NEWS</b>, sea para publicar, publicitar o navegar en el mismo sin importar la intención con que haga uso de los servicios brindados por el Sitio se encuadrará de manera automática e indefectible dentro del carácter de “usuario”, asumiendo consecuentemente todas las responsabilidades que dicho carácter impone, en virtud de la descripción que a continuación se realiza.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">1.- Definiciones</h6></br>
+                            <p><b>Contenido:</b> Significará todo aquel documento digital de formato html, gif, jpg, pdf, rm, mp4, mp2, mov, y cualesquiera otro que sea utilizado para permitir el acceso a información, obras de arte, música, fotografías, videos y toda forma que pudiere adoptar una creación del intelecto humano, así como el diseño gráfico y códigos fuente del Sitio, que se encuentran protegidos por las leyes de derecho de autor reconocidas en los ámbitos nacional e internacional.</p><p><b>Frames:</b> Significará la división de la pantalla del programa de visualización de páginas en Internet en dos o más cuadros a fin de mostrar contenidos de dos o más sitios web en forma simultánea y/o para mostrar otro sitio dentro de una ventana o marco.</p><p><b>Links:</b> Significará todo enlace hecho desde el Sitio a otro sitio web y viceversa, ya sea html, shtml, asp, o flash, no siendo esta enumeración taxativa y pudiendo extenderse a cualquier medio capaz de vincular contenido digital.</p><p><b>Servicios:</b> Significará toda la información proporcionada por <b>ELIXIR-NEWS</b> o Terceros a través del Sitio, los contenidos divulgados en soporte de papel e informático y todos aquellos servicios que en el futuro pudiere ofrecer y/o promocionar <b>ELIXIR-NEWS</b> y/o Terceros en los Sitios.</p><p><b>Terceros:</b> Significarán todas aquellas personas humanas o jurídicas que mediante la contratación de los Servicios brindados por <b>ELIXIR-NEWS</b>, publiquen contenidos, publiciten o comercialicen productos y/o servicios en el Sitio como así también introduzcan comentarios, consejos y/u opiniones.</p><p><b>Público en General:</b> Significara cualquier persona humana o jurídica que tenga acceso al Sitio y a todos los contenidos ahí subidos por los usuarios y/o terceros, cualquiera fuera su motivo.</p><p><b>Contenidos:</b> Significarán todo tipo de información, comentario, noticia, archivo, foto, música, etc… que los usuarios como los terceros y público en general suban, bajen, reproduzcan, comenten, envíen, copien, peguen, corten, etc. del Sitio.</p>
+                        </div>
+                    </div>
+                     <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">2.- Objeto</h6></br>
+                            <p>La puesta en funcionamiento del Sitio por parte de <b>ELIXIR-NEWS</b> tiene por objeto proveerle a los usuarios, terceros y público en general información sobre servicios de Laprida, la República Argentina y del mundo. Asimismo, el Sitio tiene como objetivo informar a los usuarios, terceros y público en general los distintos productos y/o servicios publicitados tanto por ELIXIR-NEWS como por Terceros.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">3.- Condiciones de Uso</h6></br>
+                            <p><b>3.1.- Gratuidad del Acceso</b> El acceso a la información brindada por el Sitio es gratuito. El Usuario deberá, en todos los casos registrarse para disfrutar de los beneficios de aquellos servicios que <b>ELIXIR-NEWS</b> expresamente determine. Esta gratuidad no se extenderá en caso alguno al uso de otros Servicios y/o productos de <b>ELIXIR-NEWS</b> y/o de Terceros cuyo uso y goce esté condicionado al pago de un precio por parte del usuario. En dicho caso, será necesaria la suscripción del contrato respectivo, en el cual las partes contratantes establecerán los términos comerciales aplicables. En el caso de productos publicitados por terceros, <b>ELIXIR-NEWS</b>, solo actúa como un mero vinculo informativo y en consecuencia no participa ni avala la calidad ni la cantidad de los servicios publicados.</p><p><b>3.2.- Utilización del Sitio</b> Toda vez que el usuario ingrese al Sitio deberá seguir y cumplir con los instructivos, y demás avisos que se publiquen todo de acuerdo con los términos y condiciones que aquí se publican, leyes, reglamentaciones y disposiciones gubernamentales vigentes que son de estricta aplicación.</p><p><b>3.3.- Prohibiciones en General</b> Todo usuario tiene prohibido utilizar los servicios y/o productos en el Sitio publicados con fines o efectos ilícitos o que pudieren dañar o menoscabar los derechos e intereses de terceros; o que de cualquier forma pudieren perjudicar o impedir la libre y normal utilización de los servicios y/o contenidos de <b>ELIXIR-NEWS</b>, de terceros, de otros usuarios y/o de cualquier usuario de Internet. Los usuarios no podrán ni deberán recabar datos almacenados en el Sitio con fines publicitarios ni enviar publicidad y/o comunicaciones de cualquier clase con fines comerciales a los demás usuarios, sin que <b>ELIXIR-NEWS</b> lo haya autorizado de manera previa y expresa. Tampoco podrán ni deberán, los usuarios, poner a disposición de terceros, con cualquier finalidad, datos obtenidos de las listas de distribución implementadas, proporcionadas y/o promovidas en el Sitio. El Usuario cualquiera fuera la condición en que ingrese al Sitio, tiene prohibido realizar manifestaciones o indicaciones falsas, inexactas o incorrectas sobre el Sitio, sobre los Servicios allí promocionados, ni sobre <b>ELIXIR-NEWS</b> y/o Terceros, ni podrá declarar ni dar a entender que <b>ELIXIR-NEWS</b> ha autorizado, supervisado o asumido la responsabilidad de cualquier forma por los contenidos o servicios ofrecidos o puestos a disposición por la página web en la que se ha establecido el Link. Todo usuario que viole las condiciones precedentes será responsable civil y penalmente por los daños y perjuicios que su accionar pudiere ocasionar a otros usuarios, terceros, <b>ELIXIR-NEWS</b> y público en general deslindado desde ya cualquier tipo de responsabilidad a cargo de <b>ELIXIR-NEWS</b>.</p><p><b>3.4.- Implementación de Links</b> El Usuario podrá implementar Links entre su página en internet y el Sitio, con el fin de informar a otras personas de los servicios brindados en el Sitio. La autorización a implementar un Link entre una página en Internet y el Sitio no constituye, significa, crea ni importa ningún tipo de sociedad, asociación o cualquier otro tipo de vínculo o relación comercial entre el propietario de la página en Internet en la que se implemente el mencionado Link, <b>ELIXIR-NEWS</b>, Terceros y usuarios en general.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">4.- Garantías y Licencias</h6></br>
+                            <p><b>4.1.- Continuidad y Disponibilidad de los Servicios</b> <b>ELIXIR-NEWS</b> no garantiza en forma alguna la disponibilidad permanente ni el irrestricto acceso del usuario al Sitio ni a los servicios allí ofrecidos, así como tampoco garantiza que su uso sea necesario, útil y/o beneficioso para desarrollar actividad alguna. <b>ELIXIR-NEWS</b> se obliga a tomar todas las medidas necesarias para permitir el correcto funcionamiento, acceso y utilización de los Sitios y sus servicios. <b>ELIXIR-NEWS</b> no será responsable en forma alguna por la indisponibilidad del Sitio y servicios ofrecidos por causas que no sean imputables a <b>ELIXIR-NEWS</b> exclusivamente.</p><p><b>4.2.- Seguridad, Privacidad y Confidencialidad</b> <b>ELIXIR-NEWS</b> se obliga a tomar todos los recaudos técnicos a su alcance para evitar que terceros no autorizados tomen conocimiento de la clase, condiciones, características y circunstancias del uso que los usuarios hacen de su Sitio y de sus servicios. Está bajo las normas de confidencialidad y de privacidad toda aquella información personal que el usuario ingresa voluntariamente a nuestra red durante la inscripción al servicio y en otras ocasiones como en los concursos, las compras, las publicaciones, los comentarios, etc. ésta incluye, pero no es limitativo, nombre, apellido, dirección, número de teléfono, correo electrónico, sexo, edad, nivel educacional. El usuario puede modificar o actualizar esta información en cualquier momento. Los datos personales contenidos en la información confidencial, son utilizados para proveerle al usuario un servicio personalizado y acorde a sus necesidades, en su caso, ofreciendo publicidad selectiva o contenidos que puedan llegar a serle de interés, si es que el usuario indicó recibirlos. Sin perjuicio de lo expresado precedentemente, <b>ELIXIR-NEWS</b> no garantiza en forma alguna la seguridad y privacidad del usuario en la utilización de los Sitios ni de los servicios allí ofrecidos. En particular, no garantiza que terceros ajenos a los Sitios se vean imposibilitados de tener conocimiento de la información antes mencionada. Las normas de confidencialidad que a continuación se detallan pueden tener cambios futuros, con lo cual se aconseja revisarlas periódicamente.</p><p><b>4.3.- Virus</b> <b>ELIXIR-NEWS</b> tomará todos los recaudos a su alcance para evitar, reducir y/o eliminar toda posible infección, propagación y/o transmisión de virus informáticos en todas sus formas y versiones en los contenidos de su Sitio. Sin embargo, <b>ELIXIR-NEWS</b> no garantiza en forma alguna la inexistencia de virus ni de otros elementos en los contenidos que pudieren producir alteraciones en el sistema informático del usuario, ya sea en el software o en el hardware, o en los documentos electrónicos y documentos almacenados en el sistema informático del Sitio. En caso de que el usuario recibiere algún virus por cualquier medio relacionado con los servicios, deberá informarle en un plazo no mayor a las 48 horas a <b>ELIXIR-NEWS</b> para su intervención y corrección.</p><p><b>4.4.- Cookies</b> Los Cookies son pequeñas piezas de información transferidas por el sitio web desde el disco duro de la computadora del usuario, que graban sus datos personales cuando se conecta al servicio de <b>ELIXIR-NEWS</b> y se modifican al abandonar el servicio. Los cookies son anónimos. El acceso a la información por medio de los cookies permite ofrecer al usuario un servicio personalizado, ya que almacenan no sólo sus datos personales sino también la frecuencia de utilización del servicio y las secciones de la red visitadas, reflejando así sus hábitos y preferencias. Aceptar los cookies es requisito para poder recibir y/o utilizar nuestro servicio. Las redes publicitarias que insertan avisos en nuestras páginas pueden también utilizar sus propios cookies.</p><p><b>4.5.- Licencia</b> <b>ELIXIR-NEWS</b> y/o Terceros le confieren al Usuario una licencia gratuita de uso de los Contenidos y Servicios difundidos en el Sitio a los únicos fines del uso y disfrute de los Contenidos y Servicios, siempre y cuando el Usuario respete los presentes Términos y Condiciones de Uso y por el plazo que <b>ELIXIR-NEWS</b> y/o los Terceros le estimen necesario. Todas las marcas, patentes, nombres comerciales o signos distintivos de cualquier clase o tipo que aparecen en el Sitio son propiedad de <b>ELIXIR-NEWS</b> o de Terceros, sin que pueda entenderse que el uso o acceso al Sitio, a los Servicios y/o a los Contenidos otorgue al Usuario derecho y/o licencia alguna sobre las marcas, patentes, nombres comerciales y/o signos distintivos allí almacenados.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8"> 
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">5.- Contenido</h6></br>
+                            <p>Los usuarios, terceros y público en general serán enteramente responsable de las fotos, perfiles (incluyendo nombres, imágenes y representación del usuario, tercero o público en general), mensajes, notas, texto, información, música, video, anuncios, listas y demás contenido que carguen, publiquen o muestren (en adelante, “publicar”) en el Sitio o a través del mismo, o que transmitan a otros usuarios, terceros o público en general o compartan con otros usuarios, terceros o público en general. No podrán publicar, transmitir o compartir contenidos de usuarios, terceros o público en general o servicio que no hayan creado o que no estén autorizados a publicar. Reconocen y aceptan que <b>ELIXIR-NEWS</b> podrá, sin constituir su obligación, revisar el Sitio y podrán eliminar o retirar (sin previo aviso) cualquier contenido del Sitio o contenido de usuarios, terceros o público en general a su elección exclusiva, con o sin causa, incluyendo aquel contenido de usuarios, terceros o público en general que, a juicio exclusivo de <b>ELIXIR-NEWS</b>, infrinja el presente documento, que pueda ser ofensivo o ilegal o que infrinja los derechos o dañe o amenace la seguridad de los usuarios, terceros o público en general. Serán plenamente responsables, exclusivamente a cargo de los usuarios, terceros y/o público en general, crear copias de seguridad y sustituir cualquier contenido usuarios, terceros o público en general que publiquen o almacenen en el Sitio o proporcionen a <b>ELIXIR-NEWS</b>. El Sitio propicia la formación de una comunidad virtual cuyo objetivo es fomentar el libre intercambio de ideas y opiniones entre sus usuarios. Por lo tanto, Perfil deja expresamente establecido que las opiniones, hechos, comentarios, referencias y posturas ideológicas publicadas en el Sitio no reflejan necesariamente la opinión de los editores y responsables de <b>ELIXIR-NEWS</b>. Es por ello que, el Sitio y/o <b>ELIXIR-NEWS</b> no serán responsables por los juicios de valor emitidos por los usuarios, colaboradores, moderadores, articulistas, entrevistados y/o anunciantes. El Sitio contiene vínculos a otros sitios web (los “Sitios de Terceros”), así como artículos, fotografías, texto, gráficos, imágenes, diseños, música, sonido, video, información, aplicaciones, software y otros contenidos o elementos pertenecientes a terceros u originados a través de terceros (las “Aplicaciones, Software o Contenido de Terceros”). Perfil no comprueba ni verifica la exactitud, adecuación o exhaustividad de tales sitios de terceros, aplicaciones, software o contenido de terceros, y no se hace responsable de los sitios de terceros a los que se acceda a través del Sitio ni de las aplicaciones, software o contenido de terceros que se publiquen en los sitios, ni de las ofertas de productos y/o servicios a las que se pueda acceder a través del Sitio o que se instalen desde el Sitio, incluyendo en lo que respecta al contenido, la exactitud, el carácter ofensivo, las opiniones, la fiabilidad, la política de privacidad o demás políticas de los sitios de terceros o las aplicaciones, software o contenido de terceros. La inclusión de cualesquiera aplicaciones, software o contenido de terceros, la creación de vínculos a cualquier sitio de terceros o a cualesquiera aplicaciones, software o contenido de terceros o nuestra autorización para la utilización o instalación de cualquier sitio de terceros o cualesquiera aplicaciones, software o contenido de terceros no significa que aprobemos o patrocinemos tales sitios de terceros, aplicaciones, software o contenido de terceros. Si el usuario o tercero deseara abandonar alguno de los sitios y acceder a los sitios de terceros o usar o instalar cualesquiera aplicaciones, software o contenido de terceros, será por su cuenta y riesgo, en cuyo caso reconocen los usuarios, terceros y público en general que las presentes condiciones y políticas dejarán de ser de aplicación. Los usuarios, terceros y público en general deberán consultar las condiciones y políticas aplicables, incluyendo las políticas en materia de privacidad y recogida de datos, de cualquier sitio al que accedas a través del Sitio o que esté relacionado con las aplicaciones que, en su caso, uses o instales desde el Sitio.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8"> 
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">6.- Confidencialidad de la Información - Modificación y actualización de la información.</h6></br>
+                            <p><b>ELIXIR-NEWS</b> no compartirá la información confidencial con ninguno de los socios o co-propietarios excepto que tenga expresa autorización de quienes se suscribieron, o cuando ha sido requerido por orden judicial o legal, o para proteger los derechos de propiedad u otros derechos de <b>ELIXIR-NEWS</b>. </br><b>HTTPS://ELIXIR.NEWS</b> no vende ni alquila la información de los usuarios. Si los datos personales del usuario debieran ser compartidos con socios comerciales o patrocinantes, el usuario será notificado antes que éstos sean recogidos o transferidos. Si no desea que sus datos sean compartidos, puede decidir no utilizar un servicio determinado o no participar en algunas promociones o concursos.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8"> 
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">7.- Protección de la información personal</h6></br>
+                            <p>Los datos personales proporcionados por el usuario formarán parte de un archivo que contendrá su perfil. Accediendo al mismo, el usuario puede modificarlos o actualizarlos en cualquier momento <b>ELIXIR-NEWS</b> recomienda al usuario que actualice sus datos cada vez que éstos sufran alguna modificación, ya que esto permitirá brindarle un servicio más personalizado. La información proporcionada por el usuario, está asegurada por una clave de acceso a la cual sólo el usuario podrá acceder y de la cual sólo él tiene conocimiento. <b>ELIXIR-NEWS</b> no intentará por ningún medio obtener esa clave personal. Debido a que ninguna transmisión por Internet puede garantizar su íntegra seguridad, <b>ELIXIR-NEWS</b> no puede garantizar que la información transmitida utilizando su servicio sea completamente segura, con lo cual el usuario asume este riesgo que declara conocer y aceptar. El usuario es el único responsable de mantener en secreto su clave y la información de su cuenta. Para disminuir los riesgos <b>ELIXIR-NEWS</b> recomienda al usuario salir de su cuenta y cerrar la ventana de su navegador cuando finalice su actividad, más aún si comparte su computadora con alguien o utiliza una computadora en un lugar público como una biblioteca o un cyber-café.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8"> 
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">8.- Responsabilidad - Limitación y Exoneración</h6></br>
+                            <p> <b>ELIXIR-NEWS</b> no será responsable en modo alguno de ningún contenido de usuario, tercero y público en general o de Aplicaciones, Software o Contenido de usuario, tercero y público en general publicados en el Sitio o en relación con las publicidades de los servicios, con independencia de que hayan sido publicados u originados por usuarios, terceros y público en general que utilizan el Sitio o cualquiera de los equipos o programas asociados al Sitio o servicios o utilizados en éstos. Las publicidades no son creadas, originadas, auspiciadas , sponsoreadas y/o patrocinadas por <b>ELIXIR-NEWS</b>. Sin perjuicio de las condiciones relativas a la conducta de los usuarios, terceros y público en general y a las publicaciones de las mismas, <b>ELIXIR-NEWS</b> no controla lo que los usuarios, terceros, comerciantes, empresas y público en general publican, transmiten o comparten en el Sitio y no es por tanto responsable de ello ni de ningún contenido ofensivo, inapropiado, obsceno, ilegal o cuestionable que se pueda encontrar en el Sitio o en relación con cualquier contenido o aplicación de usuario, tercero o público en general. <b>ELIXIR-NEWS</b> no es responsable de la conducta, online u offline, de ningún usuario, tercero y público en general del Sitio o del servicio prestado. <b>ELIXIR-NEWS</b> no asume ningún tipo de responsabilidad por errores, omisiones, interrupciones, eliminaciones, defectos, retrasos de funcionamiento o de transmisión, fallos de la línea de comunicaciones, robos, destrucción, acceso no autorizado o alteración de las comunicaciones de los usuarios, terceros y público en general. <b>ELIXIR-NEWS</b> no se hace responsable de ninguna avería técnica ni de ningún otro problema de la red o el servicio telefónico, de los sistemas informáticos, servidores o proveedores, equipos informáticos o de telefonía móvil, software, fallos del correo electrónico o los servidores ocasionados por problemas técnicos o congestión de tráfico en Internet o en cualquier sitio (o en una combinación de éstos), incluyendo lesiones o daños sobre el ordenador, el teléfono móvil o cualquier otro elemento de hardware o software de los usuario, terceros y público en general, derivados de la utilización o de la descarga de materiales del Sitio y/o con los servicios prestados en el Sitio. <b>ELIXIR-NEWS</b> no será en ningún caso responsable de pérdidas o daños, incluyendo cualesquiera pérdidas o daños sobre los contenidos de los usuarios, terceros y público en general como así también por lesiones personales o muertes, derivados de la utilización por parte de cualquier persona del Sitio, los servicios, cualquier contenido de usuario, tercero y público en general o las aplicaciones, software o contenido de usuarios, terceros y público en general publicados en el Sitio o los servicios prestados en el Sitio. El Sitio y servicios, las aplicaciones de plataforma y los contenidos del Sitio se proporcionan “tal cual” y <b>ELIXIR-NEWS</b> excluye expresamente todas las declaraciones y garantías, expresas o implícitas, incluyendo las garantías implícitas de propiedad, comerciabilidad, adecuación a un fin concreto y no infracción. <b>ELIXIR-NEWS</b> no garantiza ni promete ningún resultado específico derivado del uso del Sitio, el servicio, incluyendo las ofertas y promociones y/o cualquier aplicación de la plataforma. <b>ELIXIR-NEWS</b> no declara ni garantiza que el software, el contenido o los materiales del Sitio, el servicio o las aplicaciones de la plataforma sean exactos, completos o fiables o que estén actualizados o libres de errores, o que el Sitio, sus servidores o las aplicaciones de la plataforma estén libres de virus u otros componentes dañinos. En consecuencia, los usuarios, terceros y público en general deberán tener precaución cuando utilicen y descarguen contenidos del Sitio para la detección y desinfección de virus reconocido en el sector. Sin limitación del carácter general de la anterior disposición, los usuarios, terceros y público en general reconocen y aceptan que cualquier descarga de contenido del Sitio como así también material, datos o software (incluyendo cualquier cliente móvil) a través de los servicios son por su exclusiva cuenta y riesgo, y será el único responsable del uso que realice de los mismos, de cualquier daño que pueda sufrir tu dispositivo móvil o sistema informático, y de las pérdidas de datos u otros daños que puedan derivarse. Los usuarios, terceros y público en general aceptan exonerar de toda responsabilidad a <b>ELIXIR-NEWS</b>, sus empresas asociadas y filiales y a sus respectivos administradores, directivos, agentes, contratistas, socios y empleados, frente a cualesquiera pérdidas, responsabilidades, reclamaciones, demandas, daños, costes y gastos, incluyendo los honorarios razonables de abogados, derivados de cualquier contenido de usuario, tercero y público general y cualquier tipo de aplicaciones, software o contenido publicados o que se comparta a través del Sitio. Así también los usuarios, terceros y público en general aceptan exonerar de toda responsabilidad a <b>ELIXIR-NEWS</b>, sus empresas asociadas y filiales y a sus respectivos administradores, directivos, agentes, contratistas, socios y empleados por la mala utilización de los servicios o del Sitio, la conducta en relación con los servicios, el Sitio u otros usuarios de los servicios o del Sitio, o cualquier incumplimiento de los presentes términos y condiciones, de cualesquiera leyes o derechos de un tercero, usuario o público en general.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8"> 
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">9.- Datos de origen de aplicaciones de terceros</h6></br>
+                            <p><b>ELIXIR-NEWS</b> utiliza los servicios API de Google y Facebook para obtener información básica del usuario (identificación de usuario), permitiendo así una autenticación sencilla en los servicios que provee <b>ELIXIR-NEWS</b>. Los datos extraídos de estos servicios se limitan a:</p><p><b>* Nombre completo</b></p><p><b>* Email</b></p><p><b>* Imagen de Perfil</b></p><p><b>ELIXIR-NEWS</b> no accede, en ninguna circunstancia, a datos personales y privados de los usuarios. <b>ELIXIR-NEWS</b> se adhiere a las Políticas de Datos de Usuario de Google y Facebook, incluido los requisitos de uso limitado de los mismos.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8"> 
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">10.- Confidencialidad de los menores</h6></br>
+                            <p>La salvaguarda de la información personal infantil es extremadamente importante. <b>ELIXIR-NEWS</b> recauda el mínimo indispensable de esa información necesaria para brindar su servicios. <b>ELIXIR-NEWS</b> no solicita información de identificación personal a los menores. Los menores siempre deben solicitar permiso a sus padres antes de enviar información personal a otro usuario online.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8"> 
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">11.- Suspensión y Conclusión de Servicios</h6></br>
+                            <p><b>ELIXIR-NEWS</b> podrá suspender por tiempo indeterminado y/o concluir con la prestación de los Servicios y Contenidos ofrecidos en el Sitio en el momento y lugar que creyere conveniente, sin que la mencionada suspensión y/o conclusión otorgue a los usuarios derecho alguno a reclamar judicial y/o extrajudicialmente indemnización alguna. En caso de que se haya celebrado contrato con un tercero, la suspensión y/o conclusión se regirá por las cláusulas oportunamente convenidas en el contrato con el tercero. <b>ELIXIR-NEWS</b> estará facultada a restringir, suspender y/o prohibir el acceso a su Sitio a aquellos usuarios que hayan obrado en contradicción con los términos y condiciones de uso aquí detallados, con la moral y las buenas costumbres, y/o hayan violado cualquier disposición, regulación y/o legislación aplicable a los servicios y contenidos ofrecidos, publicados y publicitados en el Sitio. La presente determinación no requerirá de una notificación previa al usuario en cuestión, ni otorgará al mencionado usuario derecho alguno a reclamar a <b>ELIXIR-NEWS</b> por los daños y perjuicios que la referida decisión le pudiere causar.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">12.- Notificaciones</h6></br>
+                            <p>En el supuesto de que un usuario detectare, tuviere conocimiento o viere afectado sus derechos por el proceder incorrecto de otro usuario en el Sitio, en violación de lo establecido por los presentes términos y condiciones de uso, la moral y las buenas costumbres y la legislación aplicable, deberá notificar en un plazo no mayor a 24 horas a <b>ELIXIR-NEWS</b> en forma fehaciente. En la mencionada notificación deberá especificar en forma clara y precisa sus datos personales, los del generador del hecho lesivo, los hechos y circunstancias que considera dañosos para su persona y todos otros datos que faciliten a <b>ELIXIR-NEWS</b> la toma de una decisión. Asimismo, si el usuario deseare comunicarse con <b>ELIXIR-NEWS</b> a fin de realizar sugerencias, evacuar sus dudas sobre el alcance de los presentes Términos y Condiciones de Uso o tuviere cualquier otra inquietud, lo podrá hacer enviando un correo electrónico a: direccion@elixirnews.com.</p>
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-8"> 
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">13.- Material de Asociación France Presse (AFP) – Diarios y Noticias (DyN) - Télam.</h6></br>
+                            <p>El Material de AFP, DyN y Télam incluido en <b>ELIXIR-NEWS</b> se encuentra protegido por Derechos de autor. Prohibida su publicación, radiodifusión, reedición para radiodifusión o publicación y su redistribución directa o indirecta por cualquier medio. Prohibido su almacenamiento total o parcial en computadoras, excepto para uso personal y sin fines comerciales. AFP, DyN y Télam no asumen responsabilidad alguna por toda demora, inexactitud, error u omisión en el mismo o en la transmisión o entrega de la totalidad o parte del mismo, ni por los daños emergentes de tales circunstancias.</p>
+                            </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h6 class="font-pt mb-0">14.- Información bursátil</h6></br>
+                            <p>El Sitio no proporciona ningún tipo de recomendación de inversión, ni asesoramiento legal, fiscal, ni de otra clase, y nada de lo que en ella se incluye debe ser tomado como base para realizar inversiones o tomar decisiones. Asimismo, la información contenida en el Sitio se publica para su utilización general y no tiene en cuenta objetivos específicos de inversión, situación financiera o necesidades particulares de cualquier usuario. Antes de decidir sobre cualquier inversión, usted debería obtener el asesoramiento profesional adecuado y específico. Los contenidos de <b>ELIXIR-NEWS</b> tienen únicamente finalidad informativa y bajo ninguna circunstancia deben usarse ni considerarse como una recomendación o oferta para realizar cualquier transacción accesible en el Sitio, salvo que así se indique expresamente.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-10"> <!-- Area en negrita resaltada-->
+                        <div class="single-post-blockquote">
+                            <blockquote>
+                                <h6 class="font-pt mb-0">15.- Aceptación de Términos y Condiciones</h6></br>
+                                <p><b>Esta declaración de Confidencialidad / Privacidad está sujeta a los términos y condiciones de <b>ELIXIR-NEWS</b>, con lo cual constituye un acuerdo legal entre el usuario y <b>ELIXIR-NEWS</b>. Si el usuario utiliza los servicios de <b>ELIXIR-NEWS</b>, significa que ha leído, entendido y acordado los términos antes expuestos. Si no está de acuerdo con ellos, el usuario no deberá proporcionar ninguna información personal, ni utilizar el servicio porque no está autorizado para hacerlo. <b>ELIXIR-NEWS</b> podrá dar de baja o modificar los servicios gratuitos que brinda a sus usuarios bajo la denominación "_________________", en cualquier momento, lo que le será preavisado con una antelación de siete (7) días al momento de la realización de la mencionada baja o modificación.</b></p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial Area End -->
+
+    <section class="catagory-welcome-post-area section_padding_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="gazette-pagination-area">
+                        <nav aria-label="Page navigation example"> <!-- Pagination Area End 
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next"><i class="fa fa-angle-right"></i></a>
+                                </li>
+                            </ul> -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</p>
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area bg-img background-overlay" style="background-image: url(img/bg-img/4.jpg);">
+        <!-- Top Footer Area -->
+        <div class="top-footer-area section_padding_100_70">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Regiones</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Noroeste</a></li>
+                                <li><a href="#">Nordeste</a></li>
+                                <li><a href="#">Pampeana</a></li>
+                                <li><a href="#">Amba</a></li>
+                                <li><a href="#">Cuyo</a></li>
+                                <li><a href="#">Patagonia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Locales</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Laprida</a></li>
+                                <li><a href="#">Olavarría</a></li>
+                                <li><a href="#">Azul</a></li>
+                                <li><a href="#">Tandil</a></li>
+                                <li><a href="#">Pcia. de BsAs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Politicas</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Desarrollo Social</a></li>
+                                <li><a href="#">Educación</a></li>
+                                <li><a href="#">Economía</a></li>
+                                <li><a href="#">Salud</a></li>
+                                <li><a href="#">Justicia y Seguridad</a></li>
+                                <li><a href="#">Infraestructura</a></li>
+                                <li><a href="#">Medio Ambiente</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Deportes</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Futbol</a></li>
+                                <li><a href="#">Golf</a></li>
+                                <li><a href="#">Tenis</a></li>
+                                <li><a href="#">Motorsport</a></li>
+                                <li><a href="#">Basketball</a></li>
+                                <li><a href="#">Polo</a></li>
+                                <li><a href="#">Boxeo</a></li>
+                                <li><a href="#">Voley</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">+ Más</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Tecnología</a></li>
+                                <li><a href="#">Diseño</a></li>
+                                <li><a href="#">Arquitectura</a></li>
+                                <li><a href="#">Arte</a></li>
+                                <li><a href="#">Autos</a></li>
+                                <li><a href="#">Lujos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Ayuda</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="privacy.html">Términos & Condiciones</a></li>
+                                <li><a href="#">Reglamento Participación</a></li>
+                                <li><a href="#">Beneficios, suscripción</a></li>
+                                <li><a href="#">Donar/Aportes</a></li>
+                                <li><a href="#">Contactar al Director</a></li>
+                                <li><a href="#">Anunciar/Publicidad</a></li>
+                                <li><a href="#">Denuncias</a></li>
+                                <li><a href="#">Fe de erratas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-12">
+                        <div class="copywrite-text">
+                            <p> <!-- Link back to Behance can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.behance.net/hernanFidalgo" target="_blank">Hernán Fidalgo</a>
+                                <!-- Link back to Behance can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>

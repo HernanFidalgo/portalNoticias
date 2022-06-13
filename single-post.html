@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Periodismo Independiente de Ezequiel Andreatta: breaking news, reportes, análisis y las mejores primicias cubriendo los temas más importantes de Laprida, Argentina y el mundo">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>ElixirNews - by Eze Andreatta</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Api Whatsapp -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Breaking News Area -->
+                    <div class="col-12 col-md-6">
+                        <div class="breaking-news-area">
+                            <h5 class="breaking-news-title">DE ÚLTIMO MOMENTO</h5>
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    <li><a href="https://www.clarin.com/rss/lo-ultimo/">Lo Último: CLARÍN</a></li>
+                                    <li><a href="https://www.infobae.com/feeds/rss/">Lo Último: INFOBAE</a></li>
+                                    <li><a href="http://contenidos.lanacion.com.ar/herramientas/rss/origen=2">Lo Último: LA NACIÓN</a></li>
+                                    <li><a href="https://www.perfil.com/feed">Lo Último: PERFIL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Stock News Area -->
+                    <div class="col-12 col-md-6">
+                        <div class="stock-news-area">
+                            <div id="stockNewsTicker" class="ticker">
+                                <ul>
+                                            <li>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>eur/usd</span>
+                                                        <span>1.1862</span>
+                                                    </div>
+                                                    <div class="stock-index minus-index">
+                                                        <h4>0.18</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>BTC/usd</span>
+                                                        <span>32.676.29</span>
+                                                    </div>
+                                                    <div class="stock-index plus-index">
+                                                        <h4>8.60</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>$blue/usd</span>
+                                                        <span>173.99</span>
+                                                    </div>
+                                                    <div class="stock-index minus-index">
+                                                        <h4>13.60</h4>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>eur/usd</span>
+                                                        <span>1.1862</span>
+                                                    </div>
+                                                    <div class="stock-index minus-index">
+                                                        <h4>0.18</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>BTC/usd</span>
+                                                        <span>32.676.29</span>
+                                                    </div>
+                                                    <div class="stock-index plus-index">
+                                                        <h4>8.60</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>$blue/usd</span>
+                                                        <span>173.99</span>
+                                                    </div>
+                                                    <div class="stock-index minus-index">
+                                                        <h4>13.60</h4>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>eur/usd</span>
+                                                        <span>1.1862</span>
+                                                    </div>
+                                                    <div class="stock-index minus-index">
+                                                        <h4>3.95</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>BTC/usd</span>
+                                                        <span>32.676.29</span>
+                                                    </div>
+                                                    <div class="stock-index plus-index">
+                                                        <h4>4.78</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="single-stock-report">
+                                                    <div class="stock-values">
+                                                        <span>$blue/usd</span>
+                                                        <span>173.99</span>
+                                                    </div>
+                                                    <div class="stock-index minus-index">
+                                                        <h4>11.37</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Middle Header Area -->
+        <div class="middle-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Logo Area -->
+                    <div class="col-12 col-md-4">
+                        <div class="logo-area">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <!-- Header Advert Area -->
+                    <div class="col-12 col-md-8">
+                        <div class="header-advert-area">
+                            <a href="#"><img src="img/bg-img/top_ads_init.jpeg" alt="header-add"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Header Area -->
+        <div class="bottom-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gazetteMenu" aria-controls="gazetteMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
+                                <div class="collapse navbar-collapse" id="gazetteMenu">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SECCIONES</a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="https://www.instagram.com/ezequiel_andreatta7/">Elixir-TV</a>
+                                                <a class="dropdown-item" href="catagory.html">Policiales</a>
+                                                <a class="dropdown-item" href="politics.html">Politica</a>
+                                                <a class="dropdown-item" href="#">Mundo</a>
+                                                <a class="dropdown-item" href="single-post.html">Opinion</a>
+                                                <a class="dropdown-item" href="health.html">Salud</a>
+                                                <a class="dropdown-item" href="#">Deportes</a>
+                                                <a class="dropdown-item" href="#">Clasificados</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about-us.html">Quienes somos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contacto</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://wa.me/5491153345181?text=Me%20gustaría%20informar%20algo%20que%20deben%20conocer/investigar:">Denuncias</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Search Form -->
+                                    <div class="header-search-form mr-auto">
+                                        <form action="#">
+                                            <input type="search" placeholder="Ingrese la palabra clave a buscar..." id="search" name="search">
+                                            <input class="d-none" type="submit" value="submit">
+                                        </form>
+                                    </div>
+                                    <!-- Search btn -->
+                                    <div id="searchbtn">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <section class="single-post-area">
+        <!-- Single Post Title -->
+        <div class="single-post-title bg-img background-overlay" style="background-image: url(img/bg-img/1.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-end">
+                    <div class="col-12">
+                        <div class="single-post-title-content">
+                            <!-- Post Tag -->
+                            <div class="gazette-post-tag">
+                                <a href="#">Opinión</a>
+                            </div>
+                            <h2 class="font-pt">BIENVENIDOS AL PERIODISMO DE LOS ENTUSIASTAS</h2>
+                            <p>Por Ezequiel Andreatta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-post-contents">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h2 class="font-pt">LA ANTINOMIA DE LOS PÍCAROS</h2></br>
+                            <p>A partir del resultado de las elecciones legislativas en el cual triunfó agónicamente el oficialismo liderado por Pablo Torres y compañía, se ha instaurado una suerte de relajo evidenciado en medidas que se toman a medias, con ínfulas de mesura y equilibrio. <p>El rebrote de las variantes Ómicron y Delta arrasa en el país y en la ciudad ecológica (Laprida contabiliza 270 casos positivos) pero no venimos a asustar ni estremecer la eventual paranoia de nuestros lectores, sino más bien a entender la naturaleza de las políticas públicas ejercitadas por el aquí bautizado "zorro subversivo".</p>
+                            <p>La política es el arte de lo posible y el gabinete municipal empleó todas sus herramientas para vencer a la oposición en noviembre tras caer sorpresivamente en las PASO de septiembre. Discursos pseudo conciliadores, relatos optimistas y oportunistas, culposos y escasos de evidencia, agresiones espontáneas entre candidatos a concejales y un sinfín de inconsistencias desfilaron en los medios locales (en su mayoría oficialistas) por parte de los candidatos de TODOS; encabezados por la solemnidad de Sampayo y el temperamento de Policano.</p>
+                            <p>La estrategia y su respectivo marketing político resultaron ya que en Laprida ganaron por un puñado de votos. A nivel nacional, el triunfo de JUNTOS fue arrasador y el país se tiñó de amarillo y rojo. </p>
+                            <div class="col-12">
+                                <div class="single-post-thumb">
+                                    <img src="img/blog-img/50.jpeg" alt="">
+                                </div>
+                            </div></br>
+                            <div class="col-12 col-md-10">
+                                <div class="single-post-blockquote">
+                                    <blockquote>
+                                        <h6 class="font-pt mb-0">Este artículo describe la contradicción entre el dilema de cuidar y el peligro de no decidir a tiempo.</h6>
+                                    </blockquote>
+                                </div>
+                            </div></br>
+                            <p>El problema surge del encanto y exceso de confianza que produce el triunfo, ya que se asimila como un trampolín para fortalecer (indirectamente) los errores que venían cometiendo en el pasado.. En la actualidad, el más llamativo es el vinculado al área de salud y la decisión gubernamental de permitir la libre circulación en la vía pública sin barbijos y la cinematográfica sensación de la desaparición del COVID 19. De un día para el otro, al Intendente Pablo Torres le pareció oportuno obedecer la decisión del presidente Alberto Fernández sobre la progresiva erradicación de los cuidados y las restricciones que aún seguían vigentes en todo el mundo. Ésta maniobra fue orquestada por los creadores del "ganamos perdiendo".</p>
+                            <p>La autonomía que en algún momento tuvo el poder ejecutivo local para establecer determinadas fases y restricciones durante el transcurso de la pandemia, hoy brilla por su ausencia ya que creyeron conveniente alistar a la tropa con la épica de la campaña de vacunación liderada por el gobernador de la provincia de Buenos Aires, Axel Kicillof. Recordemos que éstos sujetos son los mismos que protagonizaron la escandalosa adjudicación de vacunas aplicadas a sus propios funcionarios en lo que se conoció mundialmente como "el vacunatorio vip". La actual ministra de Salud de la Nación Carla Vizzotti, en aquel momento era la número 2 del ex ministro (lo despidieron) Ginés Gonzales Garcia.</p> 
+                            <p>Volviendo al terreno de la actualidad política lapridense y la constante incentivación a la aglomeración de personas por parte del Ejecutivo municipal (secretarías de Cultura, Turismo y Deportes); durante el transcurso del verano, el gobierno suele organizar festivales culturales y deportivos. "La peatonal" es un evento que aglutina una serie de espectáculos y actividades que se realizan en las avenidas más importantes de la ciudad con la presentación de bandas musicales, paseo de artesanos, peloteros, juegos y demás. El Balneario "El Paraíso" es acaso el lugar que más personas aglomera todos los fines de semana con la visita de cientos de turistas aledaños a la zona. En el complejo turístico se llevan a cabo eventos deportivos como el "Triatlón del Paraíso" entre otros tantos. Los boliches y bares (algunos a puertas cerradas) siguen su rutina de pleno jolgorio como si nada pasara.</p> 
+                            <p>La determinación de dejar a libre albedrío la responsabilidad y el compromiso cívico para contrarrestar los embates del virus no dio buenos resultados en este pueblo, y serán mucho peores si desde el gobierno se incentiva a salir y utiliza la premisa del "cuidado individual" mediante recomendaciones y consejos, sin establecer ninguna medida ejemplar para que el virus cese. En cada reporte epidemiológico, el número de casos positivos es cuestionado por los ciudadanos, ya que no comprenden la estadística debido a que al menos un familiar, amigo u conocido, se encuentra aislado.</p>
+                            <p>El Estado es el responsable de cuidar y prevenir. Los consejos no alcanzan y las recomendaciones no tienen el mismo impacto que podría tener una medida que está en manos del Intendente Municipal Pablo Torres. Desde <b>ELIXIR-NEWS</b> destacamos el trabajo de los profesionales de la salud y felicitamos a cada uno de ellos. Los medios de comunicación sirven para visibilizar las problemáticas que ocurren en la sociedad y para darle voz a los cuestionamientos que tienen lugar en la opinión pública.</p>
+                            <p>El término antinomia alude a la contradicción que existe entre dos conceptos e ideas. La antinomia revela la existencia de un contrasentido que no puede resolverse: los dos principios antinómicos aparecen enfrentados entre sí. Es importante destacar que, en el terreno de la filosofía, las antinomias no están necesariamente vinculadas a la razón, ya que dos principios pueden ser racionales y, a su vez, resultar contradictorios.</p> 
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gazette-post-discussion-area section_padding_100 bg-gray">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <!-- Comment Area Start -->
+                    <div class="comment_area section_padding_50 clearfix">
+                        <div class="gazette-heading">
+                            <h4 class="font-bold">Comentarios</h4>
+                        </div>
+
+                        <ol>
+                            <!-- Single Comment Area -->
+                            <li class="single_comment_area">
+                                <div class="comment-wrapper d-md-flex align-items-start">
+                                    <!-- Comment Meta -->
+                                    <div class="comment-author">
+                                        <img src="img/blog-img/25.jpg" alt="">
+                                    </div>
+                                    <!-- Comment Content -->
+                                    <div class="comment-content">
+                                        <h5>Juan Carlos Diaz</h5>
+                                        <span class="comment-date font-pt">2022</span>
+                                        <p>Excelente reflexión de lo que pasa a espaldas del ciudadano común. Gracias por no abandonar tus convicciones ante los embates del poder político de turno.</p>
+                                        <a class="reply-btn" href="#">Responder<i class="fa fa-reply" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <ol class="children">
+                                    <li class="single_comment_area">
+                                        <div class="comment-wrapper d-md-flex align-items-start">
+                                            <!-- Comment Meta -->
+                                            <div class="comment-author">
+                                                <img src="img/blog-img/26.jpg" alt="">
+                                            </div>
+                                            <!-- Comment Content -->
+                                            <div class="comment-content">
+                                                <h5>Elvio Perez</h5>
+                                                <span class="comment-date text-muted">2022</span>
+                                                <p>No cambies Ezequiel. Seguílos de cerca a éstos porque quien sabe cuánto más ingenien sin respaldo científico.</p>
+                                                <a class="reply-btn" href="#">Responder<i class="fa fa-reply" aria-hidden="true"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                    <!-- Leave A Comment -->
+                    <div class="leave-comment-area clearfix">
+                        <div class="comment-form">
+                            <div class="gazette-heading">
+                                <h4 class="font-bold">Dejar comentario</h4>
+                            </div>
+                            <!-- Comment Form -->
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Ingrese su nombre">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="contact-email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                                </div>
+                                <button type="submit" class="btn leave-comment-btn">ENVIAR<i class="fa fa-angle-right ml-2"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area bg-img background-overlay" style="background-image: url(img/bg-img/4.jpg);">
+        <!-- Top Footer Area -->
+        <div class="top-footer-area section_padding_100_70">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Regiones</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Noroeste</a></li>
+                                <li><a href="#">Nordeste</a></li>
+                                <li><a href="#">Pampeana</a></li>
+                                <li><a href="#">Amba</a></li>
+                                <li><a href="#">Cuyo</a></li>
+                                <li><a href="#">Patagonia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Locales</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Laprida</a></li>
+                                <li><a href="#">Olavarría</a></li>
+                                <li><a href="#">Azul</a></li>
+                                <li><a href="#">Tandil</a></li>
+                                <li><a href="#">Pcia. de BsAs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Politicas</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Desarrollo Social</a></li>
+                                <li><a href="#">Educación</a></li>
+                                <li><a href="#">Economía</a></li>
+                                <li><a href="#">Salud</a></li>
+                                <li><a href="#">Justicia y Seguridad</a></li>
+                                <li><a href="#">Infraestructura</a></li>
+                                <li><a href="#">Medio Ambiente</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Deportes</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Futbol</a></li>
+                                <li><a href="#">Golf</a></li>
+                                <li><a href="#">Tenis</a></li>
+                                <li><a href="#">Motorsport</a></li>
+                                <li><a href="#">Basketball</a></li>
+                                <li><a href="#">Polo</a></li>
+                                <li><a href="#">Boxeo</a></li>
+                                <li><a href="#">Voley</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">+ Más</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Tecnología</a></li>
+                                <li><a href="#">Diseño</a></li>
+                                <li><a href="#">Arquitectura</a></li>
+                                <li><a href="#">Arte</a></li>
+                                <li><a href="#">Autos</a></li>
+                                <li><a href="#">Lujos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Ayuda</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="privacy.html">Términos & Condiciones</a></li>
+                                <li><a href="#">Reglamento Participación</a></li>
+                                <li><a href="#">Beneficios, suscripción</a></li>
+                                <li><a href="#">Donar/Aportes</a></li>
+                                <li><a href="#">Contactar al Director</a></li>
+                                <li><a href="#">Anunciar/Publicidad</a></li>
+                                <li><a href="#">Denuncias</a></li>
+                                <li><a href="#">Fe de erratas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-12">
+                        <div class="copywrite-text">
+                            <p> <!-- Link back to Behance can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.behance.net/hernanFidalgo" target="_blank">Hernán Fidalgo</a>
+                                <!-- Link back to Behance can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- Api Whatsapp -->
+    <a href="https://wa.me/5491153345181?text=Me%20gustaría%20informar%20algo%20que%20deben%20conocer/investigar:" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
